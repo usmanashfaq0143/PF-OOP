@@ -1,0 +1,3 @@
+The Student Name is Usman
+The Student Age is 18
+The Student Marks is 90%

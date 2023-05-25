@@ -1,0 +1,6 @@
+The Student Name is Fahad
+The Student Age is 20
+The Student Marks is 90%
+The Student Position is 1
+The Student Behaviour in Class is Good
+The Student Class Participation is Great

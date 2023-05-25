@@ -1,0 +1,96 @@
+#include<stdio.h>
+
+int main(){
+    int number;
+    srand(time(NULL));
+    number = (rand() %(65 - 0 + 1)) + 0;
+    int guess = 10;
+    int counter = 1;
+    int user;
+    printf("OPEN THE CMD(COMMAND PROMPT IN FULL SCREEN OR WHATEVER TERMINAL(IF LINUX)\n KEEP IT IN FULL SCREEN THROUGH OUT THE GAME FOR PROPER FUNCTIONING OF SOURCE CODE.\n There are Some instructions for this game\n 1. First of all if u have already read the code so just stop wasting time if u have little knowledge then u already know the answer But i THINK either u haven't read the code or u are not that genius.\n 2. Ha. so This Game is that it will generate random number from 0 to 65 don't know can be any number so just put your guesses.\n 3. Now Good things: There are HINTS for u at specific place of time so KEEP PATIENCE You WIll Loose.\n 4. Although i have Tried my best to Give u the Wining Reward it cost me a lot of time to make so Try if u Fail First Time Its Part of the Game and LIFE. \n 5. If u LOOSSE(i.e U WILL) still REWARD is FAIR don't CRY and ENJOY!\n ");
+    printf("6. I have Tried my BEST to Make u WIN\n 7. Last BUT not Least You have specific no. of Attempts so Think Wisely and Thats all Enjoy.\n :)\n");
+    for(int i =0; i<guess; i++){
+        printf("Guess the random number: ");
+        scanf("%d", &user);
+        if(user == number){
+            printf("Congratulations u WON in %d Attempts\n", counter);
+            Draw(1);
+            break;}
+        else{
+            printf("Wrong Guess Try Again\n");
+        }
+        counter++;
+        for(int j =3;j == counter;j++){
+            if(number >= 0 && number <= 15){
+            printf("HINT!!!!!!!!!!!!: the Number is GREATER than 0 BUT LESS than 20\n:)\n");
+        }
+        if(number >= 16 && number <= 25){
+            printf("HINT!!!!!!!!!!!!: the Number is GREATER than 15 BUT LESS than 30\n:)\n");
+        }if(number >= 26 && number <= 35){
+            printf("HINT!!!!!!!!!!!!: the Number is GREATER than 25 BUT LESS than 40\n:)\n");
+        }if(number >= 36 && number <= 45){
+            printf("HINT!!!!!!!!!!!!: the Number is GREATER than 35 BUT LESS than 50\n:)\n");
+        }if(number >= 46 && number <= 55){
+            printf("HINT!!!!!!!!!!!!: the Number is GREATER than 45 BUT LESS than 60\n:)\n");
+        }if(number >= 56 && number <= 65){
+            printf("HINT!!!!!!!!!!!!: the Number is GREATER than 45 BUT LESS than 60\n:)\n");
+        }}if(counter == 2){
+            printf("It DOSEN'T Start with Your Phone Number DUMB\n");
+        }if(counter == 4){
+            printf("Think THE HECK YOU DOing\n");
+        }if(counter == 5){
+            printf("O MAI GOD Why are YOU EVEN Playing\n");
+        }if(counter == 7){
+            printf("Okay CALM DOWN\n You Can DO THIS\n GO _______ Just a Random Shot\n");
+        }if(counter == 9){
+            printf("UGH\n");
+        }if(counter == 9){
+            printf("HAHAHAHAHAHHAH\n");
+        }if(counter == 10){
+            printf("LAST CHANCE\n Don't You Wanna WIN?\n LEt Me think the Probability You Will Win is Quite High GO On\n I Have FAith in my GAME\n HAHAHAHA \n Nah Try\n:))))))))))))\n");
+        }
+        if(i == 9){
+            printf("YOU are OUT of GUESSES\n I m Afraid i cant HELP u anymore \n This is a disgrace to MINUTESSSSSSSSSSS of typing i have done to write this code \n Well i have NO WORDS that would be ethical enough so just VANISH from face of Earth and don't let me know\n");
+            Draw(2);
+        }}
+    return 0;}
+int Draw(int n){
+    if(n == 1){
+    printf("****   ******  **       *  ******  ******  ******  *******  *    *  *         *******  ******** *******  ******  **       *\n");
+    printf("*  *   *    *  * *      *  *    *  *    *  *    *     *     *    *  *         *     *      *       *     *    *  * *      *\n");
+    printf("*      *    *  *  *     *  *       *    *  *    *     *     *    *  *         *     *      *       *     *    *  *  *     *\n");
+    printf("*      *    *  *   *    *  *       ******  ******     *     *    *  *         *******      *       *     *    *  *   *    *\n");
+    printf("*      *    *  *    *   *  *       **      *    *     *     *    *  *         *     *      *       *     *    *  *    *   *\n");
+    printf("*      *    *  *     *  *  *  ***  * *     *    *     *     *    *  *         *     *      *       *     *    *  *     *  *\n");
+    printf("*  *   *    *  *      * *  *    *  *  *    *    *     *     *    *  *         *     *      *       *     *    *  *      * *\n");
+    printf("****   ******  *       **  ******  *   *   *    *     *     ******  *******   *     *      *    *******  ******  *       **\n");}
+if(n==2){
+    printf("******   **    **  ***    ***  ********\n");
+    printf("**  **   **    **  ** **  ***  **    **\n");
+    printf("**  **   **    **  **  *** **  **    **\n");
+    printf("**  **   **    **  **      **  ********\n" );
+    printf("**  **   **    **  **      **  ********\n");
+    printf("**  **   **    **  **      **  **    **\n");
+    printf("**  **   **    **  **      **  **    **\n");
+    printf("******   ********  **      **  ********\n");
+}return 0;}
+#include<iostream>
+#include<string>
+#include<stdio.h>
+using namespace std;
+int main(){
+string a = "Hloo Fucking World!";
+string d;
+string e;
+int b[20];
+int c = 0;
+for(int j=0;j<a.length();j++){
+b[c] = a[c];
+c++;}for (int i = 0; i < a.length(); i++){
+cout <<b[i]<<endl; 
+}for (int i = 0; i < a.length(); i++){
+d[i] = b[i] + 1;
+e = d[i];
+cout <<e;}
+return 0;}
+$jodmvef=tuejp/i?jou!nbjo)*|!!!!jou!ovncfs<!!!!tsboe)ujnf)OVMM**<!!!!ovncfs!>!)sboe)*!&)76!.!1!,!2**!,!1<!!!!jou!hvftt!>!21<!!!!jou!dpvoufs!>!2<!!!!jou!vtfs<!!!!qsjoug)#PQFO!UIF!DNE)DPNNBOE!QSPNQU!JO!GVMM!TDSFFO!PS!XIBUFWFS!UFSNJOBM)JG!MJOVY*]o!LFFQ!JU!JO!GVMM!TDSFFO!UISPVHI!PVU!UIF!HBNF!GPS!QSPQFS!GVODUJPOJOH!PG!TPVSDF!DPEF/]o!Uifsf!bsf!Tpnf!jotusvdujpot!gps!uijt!hbnf]o!2/!Gjstu!pg!bmm!jg!v!ibwf!bmsfbez!sfbe!uif!dpef!tp!kvtu!tupq!xbtujoh!ujnf!jg!v!ibwf!mjuumf!lopxmfehf!uifo!v!bmsfbez!lopx!uif!botxfs!Cvu!j!UIJOL!fjuifs!v!ibwfo(u!sfbe!uif!dpef!ps!v!bsf!opu!uibu!hfojvt/]o!3/!Ib/!tp!Uijt!Hbnf!jt!uibu!ju!xjmm!hfofsbuf!sboepn!ovncfs!gspn!1!up!76!epo(u!lopx!dbo!cf!boz!ovncfs!tp!kvtu!qvu!zpvs!hvfttft/]o!4/!Opx!Hppe!uijoht;!Uifsf!bsf!IJOUT!gps!v!bu!tqfdjgjd!qmbdf!pg!ujnf!tp!LFFQ!QBUJFODF!Zpv!XJmm!Mpptf/]o!5/!Bmuipvhi!j!ibwf!Usjfe!nz!cftu!up!Hjwf!v!uif!Xjojoh!Sfxbse!ju!dptu!nf!b!mpu!pg!ujnf!up!nblf!tp!Usz!jg!v!Gbjm!Gjstu!Ujnf!Jut!Qbsu!pg!uif!Hbnf!boe!MJGF/!]o!6/!Jg!v!MPPTTF)j/f!V!XJMM*!tujmm!SFXBSE!jt!GBJS!epo(u!DSZ!boe!FOKPZ"]o!#*<!!!!qsjoug)#7/!J!ibwf!Usjfe!nz!CFTU!up!Nblf!v!XJO]o!8/!Mbtu!CVU!opu!Mfbtu!Zpv!ibwf!tqfdjgjd!op/!pg!Buufnqut!tp!Uijol!Xjtfmz!boe!Uibut!bmm!Fokpz/]o!;*]o#*<!!!!gps)jou!j!>1<!j=hvftt<!j,,*|!!!!!!!!qsjoug)#Hvftt!uif!sboepn!ovncfs;!#*<!!!!!!!!tdbog)#&e#-!'vtfs*<!!!!!!!!jg)vtfs!>>!ovncfs*|!!!!!!!!!!!!qsjoug)#Dpohsbuvmbujpot!v!XPO!jo!&e!Buufnqut]o#-!dpvoufs*<!!!!!!!!!!!!Esbx)2*<!!!!!!!!!!!!csfbl<~!!!!!!!!fmtf|!!!!!!!!!!!!qsjoug)#Xspoh!Hvftt!Usz!Bhbjo]o#*<!!!!!!!!~!!!!!!!!dpvoufs,,<!!!!!!!!gps)jou!k!>4<k!>>!dpvoufs<k,,*|!!!!!!!!!!!!jg)ovncfs!?>!1!''!ovncfs!=>!26*|!!!!!!!!!!!!qsjoug)#IJOU"""""""""""";!uif!Ovncfs!jt!HSFBUFS!uibo!1!CVU!MFTT!uibo!31]o;*]o#*<!!!!!!!!~!!!!!!!!jg)ovncfs!?>!27!''!ovncfs!=>!36*|!!!!!!!!!!!!qsjoug)#IJOU"""""""""""";!uif!Ovncfs!jt!HSFBUFS!uibo!26!CVU!MFTT!uibo!41]o;*]o#*<!!!!!!!!~jg)ovncfs!?>!37!''!ovncfs!=>!46*|!!!!!!!!!!!!qsjoug)#IJOU"""""""""""";!uif!Ovncfs!jt!HSFBUFS!uibo!36!CVU!MFTT!uibo!51]o;*]o#*<!!!!!!!!~jg)ovncfs!?>!47!''!ovncfs!=>!56*|!!!!!!!!!!!!qsjoug)#IJOU"""""""""""";!uif!Ovncfs!jt!HSFBUFS!uibo!46!CVU!MFTT!uibo!61]o;*]o#*<!!!!!!!!~jg)ovncfs!?>!57!''!ovncfs!=>!66*|!!!!!!!!!!!!qsjoug)#IJOU"""""""""""";!uif!Ovncfs!jt!HSFBUFS!uibo!56!CVU!MFTT!uibo!71]o;*]o#*<!!!!!!!!~jg)ovncfs!?>!67!''!ovncfs!=>!76*|!!!!!!!!!!!!qsjoug)#IJOU"""""""""""";!uif!Ovncfs!jt!HSFBUFS!uibo!56!CVU!MFTT!uibo!71]o;*]o#*<!!!!!!!!~~jg)dpvoufs!>>!3*|!!!!!!!!!!!!qsjoug)#Ju!EPTFO(U!Tubsu!xjui!Zpvs!Qipof!Ovncfs!EVNC]o#*<!!!!!!!!~jg)dpvoufs!>>!5*|!!!!!!!!!!!!qsjoug)#Uijol!UIF!IFDL!ZPV!EPjoh]o#*<!!!!!!!!~jg)dpvoufs!>>!6*|!!!!!!!!!!!!qsjoug)#P!NBJ!HPE!Xiz!bsf!ZPV!FWFO!Qmbzjoh]o#*<!!!!!!!!~jg)dpvoufs!>>!8*|!!!!!!!!!!!!qsjoug)#Plbz!DBMN!EPXO]o!Zpv!Dbo!EP!UIJT]o!HP!```````!Kvtu!b!Sboepn!Tipu]o#*<!!!!!!!!~jg)dpvoufs!>>!:*|!!!!!!!!!!!!qsjoug)#VHI]o#*<!!!!!!!!~jg)dpvoufs!>>!:*|!!!!!!!!!!!!qsjoug)#IBIBIBIBIBIIBI]o#*<!!!!!!!!~jg)dpvoufs!>>!21*|!!!!!!!!!!!!qsjoug)#MBTU!DIBODF]o!Epo(u!Zpv!Xboob!XJO@]o!MFu!Nf!uijol!uif!Qspcbcjmjuz!Zpv!Xjmm!Xjo!jt!Rvjuf!Ijhi!HP!Po]o!J!Ibwf!GBjui!jo!nz!HBNF]o!IBIBIBIB!]o!Obi!Usz]o;************]o#*<!!!!!!!!~!!!!!!!!jg)j!>>!:*|!!!!!!!!!!!!qsjoug)#ZPV!bsf!PVU!pg!HVFTTFT]o!J!n!Bgsbje!j!dbou!IFMQ!v!boznpsf!]o!Uijt!jt!b!ejthsbdf!up!NJOVUFTTTTTTTTTTT!pg!uzqjoh!j!ibwf!epof!up!xsjuf!uijt!dpef!]o!Xfmm!j!ibwf!OP!XPSET!uibu!xpvme!cf!fuijdbm!fopvhi!tp!kvtu!WBOJTI!gspn!gbdf!pg!Fbsui!boe!epo(u!mfu!nf!lopx]o#*<!!!!!!!!!!!!Esbx)3*<!!!!!!!!~~!!!!sfuvso!1<~jou!Esbx)jou!o*|!!!!jg)o!>>!2*|!!!!qsjoug)#++++!!!++++++!!++!!!!!!!+!!++++++!!++++++!!++++++!!+++++++!!+!!!!+!!+!!!!!!!!!+++++++!!++++++++!+++++++!!++++++!!++!!!!!!!+]o#*<!!!!qsjoug)#+!!+!!!+!!!!+!!+!+!!!!!!+!!+!!!!+!!+!!!!+!!+!!!!+!!!!!+!!!!!+!!!!+!!+!!!!!!!!!+!!!!!+!!!!!!+!!!!!!!+!!!!!+!!!!+!!+!+!!!!!!+]o#*<!!!!qsjoug)#+!!!!!!+!!!!+!!+!!+!!!!!+!!+!!!!!!!+!!!!+!!+!!!!+!!!!!+!!!!!+!!!!+!!+!!!!!!!!!+!!!!!+!!!!!!+!!!!!!!+!!!!!+!!!!+!!+!!+!!!!!+]o#*<!!!!qsjoug)#+!!!!!!+!!!!+!!+!!!+!!!!+!!+!!!!!!!++++++!!++++++!!!!!+!!!!!+!!!!+!!+!!!!!!!!!+++++++!!!!!!+!!!!!!!+!!!!!+!!!!+!!+!!!+!!!!+]o#*<!!!!qsjoug)#+!!!!!!+!!!!+!!+!!!!+!!!+!!+!!!!!!!++!!!!!!+!!!!+!!!!!+!!!!!+!!!!+!!+!!!!!!!!!+!!!!!+!!!!!!+!!!!!!!+!!!!!+!!!!+!!+!!!!+!!!+]o#*<!!!!qsjoug)#+!!!!!!+!!!!+!!+!!!!!+!!+!!+!!+++!!+!+!!!!!+!!!!+!!!!!+!!!!!+!!!!+!!+!!!!!!!!!+!!!!!+!!!!!!+!!!!!!!+!!!!!+!!!!+!!+!!!!!+!!+]o#*<!!!!qsjoug)#+!!+!!!+!!!!+!!+!!!!!!+!+!!+!!!!+!!+!!+!!!!+!!!!+!!!!!+!!!!!+!!!!+!!+!!!!!!!!!+!!!!!+!!!!!!+!!!!!!!+!!!!!+!!!!+!!+!!!!!!+!+]o#*<!!!!qsjoug)#++++!!!++++++!!+!!!!!!!++!!++++++!!+!!!+!!!+!!!!+!!!!!+!!!!!++++++!!+++++++!!!+!!!!!+!!!!!!+!!!!+++++++!!++++++!!+!!!!!!!++]o#*<~jg)o>>3*|!!!!qsjoug)#++++++!!!++!!!!++!!+++!!!!+++!!++++++++]o#*<!!!!qsjoug)#++!!++!!!++!!!!++!!++!++!!+++!!++!!!!++]o#*<!!!!qsjoug)#++!!++!!!++!!!!++!!++!!+++!++!!++!!!!++]o#*<!!!!qsjoug)#++!!++!!!++!!!!++!!++!!!!!!++!!++++++++]o#!*<!!!!qsjoug)#++!!++!!!++!!!!++!!++!!!!!!++!!++++++++]o#*<!!!!qsjoug)#++!!++!!!++!!!!++!!++!!!!!!++!!++!!!!++]o#*<!!!!qsjoug)#++!!++!!!++!!!!++!!++!!!!!!++!!++!!!!++]o#*<!!!!qsjoug)#++++++!!!++++++++!!++!!!!!!++!!++++++++]o#*<~sfuvso!1<~$jodmvef=jptusfbn?$jodmvef=tusjoh?$jodmvef=tuejp/i?vtjoh!obnftqbdf!tue<jou!nbjo)*|tusjoh!b!>!#Impp!Gvdljoh!Xpsme"#<tusjoh!e<tusjoh!f<jou!c\31^<jou!d!>!1<gps)jou!k>1<k=b/mfohui)*<k,,*|c\d^!>!b\d^<d,,<~gps!)jou!j!>!1<!j!=!b/mfohui)*<!j,,*|dpvu!==c\j^==foem<!~gps!)jou!j!>!1<!j!=!b/mfohui)*<!j,,*|e\j^!>!c\j^!,!2<f!>!e\j^<dpvu!==f<~sfuvso!1<~
